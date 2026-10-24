@@ -1,0 +1,16 @@
+{
+  "name": "evidence-handoff",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "check": "tsc --noEmit",
+    "demo": "bun run src/demo.ts corrected",
+    "regression": "bun run src/demo.ts broken"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.0",
+    "typescript": "^5.9.0"
+  }
+}
